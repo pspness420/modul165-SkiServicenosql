@@ -63,8 +63,7 @@ vergessin sie nicht zu eine Benutzer und eine Serviceauftraege collections zu er
    ```bash
    dotnet run
    ```
-3. **Swagger-Dokumentation aufrufen**:
-   - Gehe zu `http://localhost:5000/swagger`
+
 
 ---
 
