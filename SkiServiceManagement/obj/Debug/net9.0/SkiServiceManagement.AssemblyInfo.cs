@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SkiServiceManagement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2853edf0f77370685bd1605c2d864e562a44148c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8630a7002938eae8cc5c95932d4492327d12a895")]
 [assembly: System.Reflection.AssemblyProductAttribute("SkiServiceManagement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SkiServiceManagement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

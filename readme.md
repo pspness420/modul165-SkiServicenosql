@@ -56,7 +56,7 @@ Das Ski-Service Management Backend dient zur Verwaltung von Serviceaufträgen un
             var connectionString = "Connection String";
             if (string.IsNullOrWhiteSpace(connectionString))
    ```
-vergessin sie nicht zu eine Benutzer und eine Serviceauftraege classe zu ertellen
+vergessin sie nicht zu eine Benutzer und eine Serviceauftraege collections zu ertellen
 
 
 2. **Projekt starten**:
