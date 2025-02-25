@@ -9,6 +9,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.FileProviders;
 using System.IO;
+using Microsoft.AspNetCore.Rewrite;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -71,6 +72,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseCors("AllowAll"); // Enable CORS
 
+app.UseRewriter(new RewriteOptions().AddRedirect("^$", "index.html")); // Redirect root to index.html
 // Add static files: html, css, and js
 app.UseStaticFiles(new StaticFileOptions
 {
